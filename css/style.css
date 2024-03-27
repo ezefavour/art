@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main_art{
+    display: flex;
+}
+.sub-art{
+    width: 500px;
+    height: 400px;
+    background: black;
+
+}
+.sub-art h1{
+    color: white;
+    position: absolute;
+    left: 10%;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 10%;
+    
+}
+span{
+    color: red;
+}
+.sub--art{
+    width: 500px;
+    height: 400px;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0,0, 0.5)), url('/css/art.jpeg');
+    background-size: cover;
+}
+.last-art{
+    width: 500px;
+    height: 400px;
+    background: #efefef;
+}
+.last-art p{
+    position: absolute;
+    right: 5%;
+    color:black ;
+    margin: 10%;
+    text-align: left;
+    font-size: 20px;
+}
+.last-art button{
+    position: absolute;
+    top: 40%;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    padding-left: 5px;
+}
+.last-art i{
+    background-color: red;
+    padding:15px;
+}
+.sub-middle{
+    display: flex;
+    margin: 50px;
+}
+.another-middle{
+    display: block;
+    margin: 40px;
+}
+.another-middle h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.another-middle p{
+    font-size: 20px;
+  
+}
+.sub-middle img{
+    width: 30%;
+    position: relative;
+    left: 25%;
+    height: 40%;
+}
+.hero{
+    display: grid;
+    grid-area: 2 / 1 / span 2 / span 3;
+    margin-bottom: 20px;
+}
+.hero1{
+    display: grid;
+    grid-row: 1/ 3;
+    margin-left: 40%;
+}
+.hero1 img{
+    width: 400px;
+    height: 450px;  
+}
+.hero2{
+    display: grid;
+    grid-column: 2 / span 1;
+}
+.hero2 img{
+    width: 300px;
+    height: 210px;
+}
+.hero3{
+    grid-column: 3/ 2;
+    display: grid;
+    background: black;
+    color: #9b9393;
+    width: 300px;
+    height: 210px;
+    margin-top: 10px;
+    
+}
+.hero3 h1{
+    margin-left: 15px;
+}
+.hero3 p{
+    margin-left: 15px;
+}
+.last-last{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: #9b9393;
+    padding: 50px;
+}
+.last-last h1{
+    color: #fff;
+}
+.link i{
+    margin-left: 10px;
+    color: #fff;
+}
+@media (max-width: 900px) {
+    .main_art{
+        display: block;
+    }
+    .sub-art{
+        width: 250px;
+        height: 400px;
+        background: black;
+    
+    }
+    .sub-art h1{
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 10%;
+        
+    }
+    span{
+        color: red;
+    }
+    .sub--art{
+        width: 250px;
+        height: 400px;
+        background:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0,0, 0.5)), url('/css/art.jpeg');
+        background-size: contain;
+    }
+    .last-art{
+        width: 250px;
+        height: 400px;
+        background: red;
+    }
+    .last-art p{
+        right: 5%;
+        color:black ;
+        margin: 10%;
+        text-align: left;
+        font-size: 20px;
+    }
+    .last-art button{
+       position: relative;
+      left: 3%;
+        outline: none;
+        border: 1px soli white;
+        background: #9b9393;
+        color: white;
+        padding-left: 5px;
+        margin-top: 30%;
+    }
+    .last-art i{
+        background-color: black;
+        padding:10px;
+    }
+    .sub-middle{
+        display: block;
+        
+    }
+    .another-middle{
+        display: block;
+        margin: 40px;
+    }
+    .another-middle h1{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .another-middle p{
+        font-size: 20px;
+      
+    }
+    .sub-middle img{
+        width: 50%;
+       
+        height: 60%;
+    }
+    .hero{
+        display: block;
+ 
+        margin-bottom: 20px;
+    }
+    .hero1{
+        display: block;
+      
+      
+    }
+    .hero1 img{
+        width: 250px;
+        height: 350px; 
+     position: relative;
+     right: 70%;
+    }
+    .hero2{
+        display: block;
+  
+    }
+    .hero2 img{
+        width: 300px;
+        height: 210px;
+    }
+    .hero3{
+       
+        display: block;
+        background: black;
+        color: #9b9393;
+        width: 300px;
+        height: 210px;
+        margin-top: 10px;
+        
+    }
+    .hero3 h1{
+        margin-left: 15px;
+    }
+    .hero3 p{
+        margin-left: 15px;
+    }
+    .last-last{
+        display: block;
+        
+        align-items: center;
+        background: black;
+        color: #9b9393;
+        padding: 50px;
+    }
+    .last-last h1{
+        color: #fff;
+    }
+    .last-last p{
+        margin-top: 15px;
+    }
+    .link i{
+        margin-left: 10px;
+        color: #fff;
+        margin-top: 15px;
+    } 
+}
+@media (min-width: 600px) {
+    .main_art{
+        display: flex;
+    }
+    .sub-art{
+        width: 500px;
+        height: 400px;
+        background: black;
+    
+    }
+    .sub-art h1{
+        color: white;
+        position: absolute;
+        left: 10%;
+        font-size: 40px;
+        font-weight: 800;
+        margin: 10%;
+        
+    }
+    span{
+        color: red;
+    }
+    .sub--art{
+        width: 500px;
+        height: 400px;
+        background:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0,0, 0.5)), url('/css/art.jpeg');
+        background-size: cover;
+    }
+    .last-art{
+        width: 500px;
+        height: 400px;
+        background: #efefef;
+    }
+    .last-art p{
+        position: absolute;
+        right: 5%;
+        color:black ;
+        margin: 10%;
+        text-align: left;
+        font-size: 20px;
+    }
+    .last-art button{
+        position: absolute;
+        top: 40%;
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        padding-left: 5px;
+    }
+    .last-art i{
+        background-color: red;
+        padding:15px;
+    }
+    .sub-middle{
+        display: flex;
+        margin: 50px;
+    }
+    .another-middle{
+        display: block;
+        margin: 40px;
+    }
+    .another-middle h1{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .another-middle p{
+        font-size: 20px;
+      
+    }
+    .sub-middle img{
+        width: 30%;
+        position: relative;
+        left: 25%;
+        height: 40%;
+    }
+    .hero{
+        display: grid;
+        grid-area: 2 / 1 / span 2 / span 3;
+        margin-bottom: 20px;
+    }
+    .hero1{
+        display: grid;
+        grid-row: 1/ 3;
+        margin-left: 40%;
+    }
+    .hero1 img{
+        width: 400px;
+        height: 450px;  
+    }
+    .hero2{
+        display: grid;
+        grid-column: 2 / span 1;
+    }
+    .hero2 img{
+        width: 300px;
+        height: 210px;
+    }
+    .hero3{
+        grid-column: 3/ 2;
+        display: grid;
+        background: black;
+        color: #9b9393;
+        width: 300px;
+        height: 210px;
+        margin-top: 10px;
+        
+    }
+    .hero3 h1{
+        margin-left: 15px;
+    }
+    .hero3 p{
+        margin-left: 15px;
+    }
+    .last-last{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: black;
+        color: #9b9393;
+        padding: 50px;
+    }
+    .last-last h1{
+        color: #fff;
+    }
+    .link i{
+        margin-left: 10px;
+        color: #fff;
+    }
+    
+}
